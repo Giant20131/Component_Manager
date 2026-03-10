@@ -30,7 +30,7 @@ Open `http://127.0.0.1:5000`
 ```bash
 python run_server.py
 ```
-Stop:
+Stop: 
 ```bash
 python stop_server.py
 ```
@@ -47,7 +47,7 @@ python -c "from werkzeug.security import generate_password_hash; print(generate_
 ```
 
 ## Render Deployment
-Render uses:
+Render uses:     
 - **Build Command**: `pip install -r requirements.txt`
 - **Start Command**: `gunicorn app:app --bind 0.0.0.0:$PORT`
 
