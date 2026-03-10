@@ -39,22 +39,7 @@ python stop_server.py
 In `app.py`:
 - `REQUIRE_LOGIN = True` to force login for all pages.
 
-## Credentials (Role-Based)
-Edit `pass.py` to set IT and User credentials.
 
-Default (change these immediately):
-- IT Username: `admin`
-- IT Password: `admin123`
-- User Username: `user`
-- User Password: `user123`
-
-Example:
-```python
-IT_USERNAME = "admin"
-IT_PASSWORD_HASH = "pbkdf2:sha256:..."
-USER_USERNAME = "user"
-USER_PASSWORD_HASH = "pbkdf2:sha256:..."
-```
 
 To generate a hash:
 ```bash
